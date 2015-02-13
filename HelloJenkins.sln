@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloJenkins", "src\app\HelloJenkins\HelloJenkins.csproj", "{F32E2EB5-878A-459B-A901-D403D54DC255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloJenkins.Core", "src\app\HelloJenkins.Core\HelloJenkins.Core.csproj", "{B2AD2E9C-DA07-4EBF-9D6F-CE399AF38189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloJenkins.Tests", "src\test\HelloJenkins.Tests\HelloJenkins.Tests.csproj", "{B14473DC-2DD6-4944-BE3F-1BFBA68C11BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F32E2EB5-878A-459B-A901-D403D54DC255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32E2EB5-878A-459B-A901-D403D54DC255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32E2EB5-878A-459B-A901-D403D54DC255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32E2EB5-878A-459B-A901-D403D54DC255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AD2E9C-DA07-4EBF-9D6F-CE399AF38189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AD2E9C-DA07-4EBF-9D6F-CE399AF38189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AD2E9C-DA07-4EBF-9D6F-CE399AF38189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AD2E9C-DA07-4EBF-9D6F-CE399AF38189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14473DC-2DD6-4944-BE3F-1BFBA68C11BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14473DC-2DD6-4944-BE3F-1BFBA68C11BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14473DC-2DD6-4944-BE3F-1BFBA68C11BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14473DC-2DD6-4944-BE3F-1BFBA68C11BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
